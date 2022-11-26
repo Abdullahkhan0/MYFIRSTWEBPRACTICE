@@ -1,0 +1,104 @@
+
+.navbar{
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav, ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+nav, ul, li{
+    text-decoration: none;
+    list-style: none;
+    font-size: bold 30px;
+}
+.hero-section{
+   
+    background-color: #fff;
+    padding: 158px 0;
+
+}
+.hero-section, .Hero-inner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+  
+}
+.hero-section, .Hero-inner, .left-content{
+    max-width: 900px;
+
+}
+.hero-section .Hero-inner .left-content .hero-heading{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 20px;
+    color: #21243D;
+   
+}
+.hero-section .Hero-inner .left-content .btn{
+    background-color: aqua;
+    max-width: fit-content;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+  
+}
+
+.post-section{
+   padding: 20px;
+}
+.post-inner{
+    max-width: 900px;
+    margin: auto;
+}
+.post-section .post-inner .recent-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.post-section .post-inner .recent-post a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+}
+
+.card-section{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.fw-heading{
+    margin-left: 150px;
+    font-size: larger;
+}
+.featured-soectin .fs-section-inner{
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    gap: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.dc-itm .date{
+font-weight: bold;
+background-color: rgba(0, 0, 255, 0.615);
+color: white;
+border-radius: 10px;
+padding: 3px;
+}
+
+
+
+
+
